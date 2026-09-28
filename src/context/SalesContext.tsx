@@ -67,7 +67,14 @@ export const SalesProvider: React.FC<{ children: React.ReactNode }> = ({ childre
   const [products, setProducts] = useState<Product[]>(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.PRODUCTS);
-      return saved ? JSON.parse(saved) : INITIAL_PRODUCTS;
+      if (saved) {
+        const parsed: Product[] = JSON.parse(saved);
+        return parsed.map(p => ({
+          ...p,
+          imageUrl: p.imageUrl ? p.imageUrl.replace('/src/assets/images/', '/images/') : p.imageUrl
+        }));
+      }
+      return INITIAL_PRODUCTS;
     } catch {
       return INITIAL_PRODUCTS;
     }

@@ -19,7 +19,7 @@ export const FenixBrandLogo: React.FC<FenixBrandLogoProps> = ({
         isSm ? 'h-8 w-8' : isLg ? 'h-14 w-14' : 'h-10 w-10'
       }`}>
         <img
-          src="/src/assets/images/fenix_logo_icon_1790557435957.jpg"
+          src="/images/fenix_logo_icon_1790557435957.jpg"
           alt="Fênix Multimarcas"
           className="h-full w-full object-cover"
           onError={(e) => {

@@ -60,7 +60,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salePrice: 790.00,
     stock: 5,
     minStock: 2,
-    imageUrl: '/src/assets/images/perfume_sauvage_luxury_1790556045370.jpg',
+    imageUrl: '/images/perfume_sauvage_luxury_1790556045370.jpg',
     notes: 'Original lacrado com selo de procedência',
     createdAt: '2026-08-01T10:00:00.000Z'
   },
@@ -75,7 +75,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salePrice: 680.00,
     stock: 4,
     minStock: 2,
-    imageUrl: '/src/assets/images/perfume_good_girl_elegance_1790556054207.jpg',
+    imageUrl: '/images/perfume_good_girl_elegance_1790556054207.jpg',
     notes: 'Frasco sapatinho clássico original',
     createdAt: '2026-08-05T12:00:00.000Z'
   },
@@ -118,7 +118,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salePrice: 6290.00,
     stock: 3,
     minStock: 1,
-    imageUrl: '/src/assets/images/smartphone_flagship_titanium_1790556062831.jpg',
+    imageUrl: '/images/smartphone_flagship_titanium_1790556062831.jpg',
     notes: 'Lacrado com 1 ano de garantia oficial Apple',
     createdAt: '2026-08-01T10:00:00.000Z'
   },
@@ -133,7 +133,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     salePrice: 1980.00,
     stock: 6,
     minStock: 2,
-    imageUrl: '/src/assets/images/smartphone_pro_camera_1790556072102.jpg',
+    imageUrl: '/images/smartphone_pro_camera_1790556072102.jpg',
     notes: 'Câmera de 200MP e carregador 67W incluso',
     createdAt: '2026-08-02T11:00:00.000Z'
   },

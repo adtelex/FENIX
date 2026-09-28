@@ -208,7 +208,7 @@ export const PDVView: React.FC<PDVViewProps> = ({ onSaleCompleted, onNavigateToF
         {/* Background Image Scrim */}
         <div className="absolute inset-0 z-0 opacity-25">
           <img
-            src="/src/assets/images/fenix_multimarcas_banner_1790557426564.jpg"
+            src="/images/fenix_multimarcas_banner_1790557426564.jpg"
             alt="Fênix Multimarcas"
             className="h-full w-full object-cover object-center"
           />
